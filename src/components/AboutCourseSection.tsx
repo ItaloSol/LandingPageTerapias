@@ -13,7 +13,7 @@ const Feature: React.FC<{
         {icon}
       </div>
       <h3 className="text-xl font-semibold mb-2 text-sos-dark">{title}</h3>
-      <p className="text-gray-600 text-center">{description}</p>
+      <p className="text-gray-800 text-center">{description}</p>
     </div>
   );
 };
@@ -26,7 +26,7 @@ const AboutCourseSection: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-sos-dark">
             Seu Sonho de Cuidar, Agora uma Realidade Profissional
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-800 max-w-3xl mx-auto">
             O Curso S.O.S Terapias Integrativas é o seu guia prático para transformar a paixão por ajudar em uma carreira de impacto. Aprenda a técnica Seitai e outras práticas complementares para aliviar dores e promover bem-estar.
           </p>
         </div>

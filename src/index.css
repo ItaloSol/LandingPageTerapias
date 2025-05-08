@@ -100,7 +100,7 @@
   }
   
   .btn-primary {
-    @apply bg-sos-orange hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md shadow-lg transition-all duration-300 uppercase tracking-wider text-center;
+    @apply bg-sos-orange hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md shadow-lg transition-all duration-300 uppercase tracking-wider text-center text-base md:text-lg;
   }
   
   .feature-card {
@@ -109,5 +109,14 @@
 
   .testimonial-card {
     @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg;
+  }
+  
+  /* Classes de acessibilidade */
+  .text-large {
+    @apply text-lg md:text-xl;
+  }
+  
+  .high-contrast-text {
+    @apply text-sos-dark font-medium;
   }
 }

@@ -10,20 +10,20 @@ const ProblemSection: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-sos-dark">
               Sua Vontade de Ajudar Encontra Barreiras?
             </h2>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-lg text-gray-800 mb-6">
               Você vê o sofrimento e sente um forte desejo de intervir, mas falta o conhecimento prático? A incerteza sobre como transformar seu dom em uma profissão real te paralisa? Muitos sentem essa angústia.
             </p>
-            <ul className="space-y-3 text-gray-600">
+            <ul className="space-y-3 text-gray-800">
               <li className="flex items-start">
-                <span className="text-sos-orange mr-2">✓</span>
+                <span className="text-sos-orange mr-2 font-bold">✓</span>
                 <span>Medo de não ter conhecimento suficiente para ajudar</span>
               </li>
               <li className="flex items-start">
-                <span className="text-sos-orange mr-2">✓</span>
+                <span className="text-sos-orange mr-2 font-bold">✓</span>
                 <span>Insegurança para transformar sua vocação em profissão</span>
               </li>
               <li className="flex items-start">
-                <span className="text-sos-orange mr-2">✓</span>
+                <span className="text-sos-orange mr-2 font-bold">✓</span>
                 <span>Dúvidas sobre como iniciar na área terapêutica</span>
               </li>
             </ul>

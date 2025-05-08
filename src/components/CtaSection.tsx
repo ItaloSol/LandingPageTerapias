@@ -15,7 +15,7 @@ const CtaSection: React.FC = () => {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
-            <div className="bg-white bg-opacity-10 rounded-lg p-6">
+            <div className="bg-white bg-opacity-20 rounded-lg p-6">
               <h3 className="text-xl font-bold mb-4">O que está incluso:</h3>
               <ul className="space-y-3 text-left">
                 {[
@@ -30,13 +30,13 @@ const CtaSection: React.FC = () => {
                     <div className="bg-sos-orange rounded-full p-1 mr-3 text-white flex-shrink-0">
                       <Check size={16} />
                     </div>
-                    <span>{item}</span>
+                    <span className="text-base font-medium">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
             
-            <div className="bg-white bg-opacity-10 rounded-lg p-8 flex flex-col justify-center">
+            <div className="bg-white bg-opacity-20 rounded-lg p-8 flex flex-col justify-center">
               <div className="mb-4">
                 <span className="text-lg line-through opacity-75">De R$ 297,00</span>
               </div>
@@ -44,21 +44,21 @@ const CtaSection: React.FC = () => {
                 <span className="text-4xl font-bold">Por Apenas R$ 97,00</span>
               </div>
               <div className="mb-6">
-                <span className="text-lg">Ou 12x de R$ 9,74</span>
+                <span className="text-xl">Ou 12x de R$ 9,74</span>
               </div>
               <a 
                 href="#seu-link-de-checkout" 
-                className="btn-primary text-xl py-4"
+                className="bg-sos-orange hover:bg-opacity-90 text-white font-bold py-4 px-6 rounded-md shadow-lg transition-all duration-300 uppercase tracking-wider text-center text-xl"
                 aria-label="Clique para garantir sua vaga no curso"
               >
                 QUERO MINHA VAGA AGORA!
               </a>
-              <p className="mt-4 text-sm">Vagas limitadas nesta condição especial!</p>
+              <p className="mt-4 text-lg font-medium">Vagas limitadas nesta condição especial!</p>
             </div>
           </div>
           
-          <div className="bg-white bg-opacity-10 rounded-lg p-4 inline-block">
-            <p className="text-lg">
+          <div className="bg-white bg-opacity-20 rounded-lg p-4 inline-block">
+            <p className="text-xl font-medium">
               Transforme sua vocação em uma carreira de impacto!
             </p>
           </div>

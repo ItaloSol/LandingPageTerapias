@@ -16,11 +16,11 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ quote, author, role }
           <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
         </svg>
       </div>
-      <p className="text-gray-700 mb-4 italic">{quote}</p>
+      <p className="text-gray-800 mb-4 italic">{quote}</p>
       <div className="flex items-center">
         <div className="ml-0">
           <p className="font-semibold text-sos-dark">{author}</p>
-          <p className="text-gray-600 text-sm">{role}</p>
+          <p className="text-gray-700 text-sm">{role}</p>
         </div>
       </div>
     </div>
@@ -40,8 +40,8 @@ const TestimonialsSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
           {/* Espaço para vídeos de depoimento */}
           {[1, 2, 3].map((index) => (
-            <div key={index} className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-              <p className="text-gray-500">Vídeo de Depoimento {index}</p>
+            <div key={index} className="aspect-video bg-gray-300 rounded-lg flex items-center justify-center border-2 border-gray-400">
+              <p className="text-gray-800 font-medium">Vídeo de Depoimento {index}</p>
               {/* Aqui é onde o vídeo de depoimento será incorporado */}
             </div>
           ))}

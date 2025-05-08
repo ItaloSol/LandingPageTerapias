@@ -8,18 +8,18 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-white">Curso S.O.S Terapias</h3>
-            <p className="mb-4">
+            <p className="mb-4 text-lg">
               Transformando sua vocação para cuidar em uma carreira profissional de sucesso.
             </p>
-            <p className="text-sm">
+            <p className="text-base">
               &copy; 2025 Curso S.O.S Terapias Integrativas. Todos os direitos reservados.
             </p>
           </div>
           
           <div>
             <h3 className="text-xl font-bold mb-4 text-white">Contato</h3>
-            <p className="mb-2">CNPJ: XX.XXX.XXX/0001-XX</p>
-            <p className="mb-4">Email: contato@cursosterapias.com</p>
+            <p className="mb-2 text-lg">CNPJ: XX.XXX.XXX/0001-XX</p>
+            <p className="mb-4 text-lg">Email: contato@cursosterapias.com</p>
             <div className="flex space-x-4">
               <a href="#" className="text-sos-orange hover:text-white transition-colors" aria-label="Facebook">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -46,22 +46,22 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4 text-white">Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sos-orange hover:text-white transition-colors">
+                <a href="#" className="text-sos-orange hover:text-white transition-colors text-lg">
                   Política de Privacidade
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sos-orange hover:text-white transition-colors">
+                <a href="#" className="text-sos-orange hover:text-white transition-colors text-lg">
                   Termos de Uso
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-sos-orange hover:text-white transition-colors">
+                <a href="#about" className="text-sos-orange hover:text-white transition-colors text-lg">
                   Sobre o Curso
                 </a>
               </li>
               <li>
-                <a href="#oferta" className="text-sos-orange hover:text-white transition-colors">
+                <a href="#oferta" className="text-sos-orange hover:text-white transition-colors text-lg">
                   Ofertas Especiais
                 </a>
               </li>

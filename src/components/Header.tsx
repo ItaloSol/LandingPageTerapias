@@ -31,12 +31,12 @@ const Header: React.FC = () => {
           />
         </a>
         <nav className="hidden md:flex space-x-6">
-          <a href="#about" className="text-sos-dark hover:text-sos-green font-medium transition-colors">Sobre o Curso</a>
-          <a href="#problem" className="text-sos-dark hover:text-sos-green font-medium transition-colors">Desafios</a>
-          <a href="#solution" className="text-sos-dark hover:text-sos-green font-medium transition-colors">Soluções</a>
-          <a href="#testimonials" className="text-sos-dark hover:text-sos-green font-medium transition-colors">Depoimentos</a>
+          <a href="#about" className="text-sos-dark hover:text-sos-green font-medium transition-colors text-lg">Sobre o Curso</a>
+          <a href="#problem" className="text-sos-dark hover:text-sos-green font-medium transition-colors text-lg">Desafios</a>
+          <a href="#solution" className="text-sos-dark hover:text-sos-green font-medium transition-colors text-lg">Soluções</a>
+          <a href="#testimonials" className="text-sos-dark hover:text-sos-green font-medium transition-colors text-lg">Depoimentos</a>
         </nav>
-        <a href="#oferta" className="btn-primary text-sm py-2 px-4">Quero minha vaga</a>
+        <a href="#oferta" className="btn-primary text-sm md:text-base py-2 px-4">Quero minha vaga</a>
       </div>
     </header>
   );

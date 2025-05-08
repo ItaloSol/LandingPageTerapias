@@ -63,15 +63,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-        // Custom colors for SOS Terapias
+        // Custom colors for SOS Terapias with improved accessibility
         sos: {
           green: {
-            DEFAULT: '#27ae60',
-            light: '#e8f5e9',
+            DEFAULT: '#1e8449', // Darker green for better contrast
+            light: '#d4efdf', // Lighter background with more contrast
           },
-          orange: '#f39c12',
-          dark: '#333333',
-          light: '#cccccc',
+          orange: '#e67e22', // Slightly adjusted orange for better visibility
+          dark: '#222222', // Darker text for more contrast
+          light: '#f8f9fa', // Lighter background
           white: '#ffffff',
         }
 			},

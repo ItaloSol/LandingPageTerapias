@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-16 md:pt-0" id="hero">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-75 z-10"></div> {/* Aumentado a opacidade para melhor contraste */}
         <img 
           src="https://via.placeholder.com/1200x600?text=Terapeuta+Ajudando+Paciente+Sorrindo" 
           alt="Terapeuta ajudando paciente" 
@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
           Transforme Vidas (Incluindo a Sua).
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-medium">
           Descubra como sua vocação para cuidar pode se tornar uma profissão gratificante e lucrativa com o Curso S.O.S Terapias Integrativas.
         </p>
         
