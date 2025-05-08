@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Hands, Certificate, BookOpen } from 'lucide-react';
+import { Hand, BookOpen } from 'lucide-react';
 
 const Feature: React.FC<{
   icon: React.ReactNode,
@@ -33,12 +33,19 @@ const AboutCourseSection: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Feature 
-            icon={<Hands size={36} />}
+            icon={<Hand size={36} />}
             title="Técnicas Eficazes"
             description="Domine 25 manobras Seitai para resultados visíveis."
           />
           <Feature 
-            icon={<Certificate size={36} />}
+            icon={<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="4" y="2" width="16" height="20" rx="2" />
+              <path d="M8 2v20" />
+              <path d="M16 2v20" />
+              <path d="M4 10h16" />
+              <path d="M4 18h16" />
+              <circle cx="12" cy="14" r="2" />
+            </svg>}
             title="Certificação Profissional"
             description="Atue com confiança e credibilidade no mercado."
           />
