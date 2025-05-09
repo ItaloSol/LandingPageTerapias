@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-
+import Logo from '../img/logo.webp';
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -19,13 +19,13 @@ const Header: React.FC = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
           ? 'bg-white shadow-md py-2' 
-          : 'bg-transparent py-4'
+          : 'hidden'
       }`}
     >
       <div className="container-custom flex justify-between items-center">
         <a href="#" className="flex items-center">
           <img 
-            src="https://via.placeholder.com/150x50?text=Sua+Marca+Aqui" 
+            src={Logo} 
             alt="Logo Curso S.O.S Terapias Integrativas" 
             className="h-10 md:h-12"
           />
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
           <a href="#solution" className="text-sos-dark hover:text-sos-green font-medium transition-colors text-lg">Soluções</a>
           <a href="#testimonials" className="text-sos-dark hover:text-sos-green font-medium transition-colors text-lg">Depoimentos</a>
         </nav>
-        <a href="#oferta" className="btn-primary text-sm md:text-base py-2 px-4">Quero minha vaga</a>
+        <a rel="noopener" href="https://pay.kiwify.com.br/e4evoCe" target='_blank' className="btn-primary text-sm md:text-base py-2 px-4">Quero aprender agora</a>
       </div>
     </header>
   );

@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,6 +19,7 @@ export default {
 		},
 		extend: {
 			colors: {
+				'border-border': 'hsl(var(--border))', // Added missing border-border definition
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -63,17 +63,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-        // Custom colors for SOS Terapias with improved accessibility
-        sos: {
-          green: {
-            DEFAULT: '#1e8449', // Darker green for better contrast
-            light: '#d4efdf', // Lighter background with more contrast
-          },
-          orange: '#e67e22', // Slightly adjusted orange for better visibility
-          dark: '#222222', // Darker text for more contrast
-          light: '#f8f9fa', // Lighter background
-          white: '#ffffff',
-        }
+				// Custom colors for SOS Terapias with improved accessibility
+				sos: {
+					green: {
+						DEFAULT: '#1e8449', // Darker green for better contrast
+						light: '#d4efdf', // Lighter background with more contrast
+					},
+					orange: '#e67e22', // Slightly adjusted orange for better visibility
+					dark: '#222222', // Darker text for more contrast
+					light: '#f8f9fa', // Lighter background
+					white: '#ffffff',
+				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -97,21 +97,21 @@ export default {
 						height: '0'
 					}
 				},
-        'fade-in': {
-          '0%': {
-            opacity: '0',
-            transform: 'translateY(10px)'
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translateY(0)'
-          }
-        },
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-        'fade-in': 'fade-in 0.5s ease-out forwards',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
 			}
 		}
 	},

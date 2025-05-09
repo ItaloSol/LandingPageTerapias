@@ -36,17 +36,7 @@ const TestimonialsSection: React.FC = () => {
             Quem Fez o Curso S.O.S Recomenda
           </h2>
         </div>
-        
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
-          {/* Espaço para vídeos de depoimento */}
-          {[1, 2, 3].map((index) => (
-            <div key={index} className="aspect-video bg-gray-300 rounded-lg flex items-center justify-center border-2 border-gray-400">
-              <p className="text-gray-800 font-medium">Vídeo de Depoimento {index}</p>
-              {/* Aqui é onde o vídeo de depoimento será incorporado */}
-            </div>
-          ))}
-        </div>
-        
+        {/* Video section removed */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <TestimonialCard 
             quote="Finalmente encontrei um curso prático que me deu segurança para atender. Já estou ajudando muitas pessoas e amando!"

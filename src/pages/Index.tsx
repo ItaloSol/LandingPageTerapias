@@ -1,12 +1,13 @@
-
 import React, { useEffect } from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import AboutCourseSection from '../components/AboutCourseSection';
 import ProblemSection from '../components/ProblemSection';
 import SolutionSection from '../components/SolutionSection';
-import CtaSection from '../components/CtaSection';
+import InstructorSection from '../components/InstructorSection';
 import TestimonialsSection from '../components/TestimonialsSection';
+import CtaSection from '../components/CtaSection';
+import FinalCtaSection from '../components/FinalCtaSection';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -44,8 +45,10 @@ const Index = () => {
       <AboutCourseSection />
       <ProblemSection />
       <SolutionSection />
+      <InstructorSection />
       <TestimonialsSection />
       <CtaSection />
+      <FinalCtaSection />
       <Footer />
     </div>
   );
