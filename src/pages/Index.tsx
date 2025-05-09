@@ -18,7 +18,7 @@ const Index = () => {
     // Add a meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Transforme sua vocação para cuidar em uma carreira profissional com o Curso S.O.S Terapias Integrativas. Aprenda técnicas Seitai e muito mais.');
+      metaDescription.setAttribute('content', 'Transforme sua vocação para cuidar em uma carreira profissional com o Curso S.O.S Terapias Integrativas Complementares. Aprenda técnicas Seitai e muito mais.');
     }
     
     // Smooth scroll behavior for anchor links

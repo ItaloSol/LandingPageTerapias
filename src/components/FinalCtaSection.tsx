@@ -14,7 +14,7 @@ const FinalCtaSection: React.FC = () => {
             Não Perca Mais Tempo!
           </h2>
           <p className="text-xl mb-8 text-white/90">
-            Junte-se a milhares de terapeutas de sucesso que já transformaram suas vidas através do Curso S.O.S Terapias Integrativas.
+            Junte-se a milhares de terapeutas de sucesso que já transformaram suas vidas através do Curso S.O.S Terapias Integrativas Complementares.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -31,7 +31,7 @@ const FinalCtaSection: React.FC = () => {
             <div className="bg-white/10 backdrop-blur rounded-lg p-6 flex flex-col items-center">
               <Award className="w-12 h-12 mb-4 text-white" />
               <h3 className="text-lg font-semibold mb-2">Certificado Incluso</h3>
-              <p className="text-sm text-white/80">Documento oficial para atuar profissionalmente</p>
+              <p className="text-sm text-white/80">Certificado de conclusão do curso</p>
             </div>
           </div>
           

@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         <a href="#" className="flex items-center">
           <img 
             src={Logo} 
-            alt="Logo Curso S.O.S Terapias Integrativas" 
+            alt="Logo Curso S.O.S Terapias Integrativas Complementares" 
             className="h-10 md:h-12"
           />
         </a>

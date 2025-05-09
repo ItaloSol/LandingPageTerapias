@@ -34,14 +34,14 @@ const CtaSection: React.FC = () => {
             className="text-4xl md:text-5xl font-bold mb-6"
           >
             <span className="block mb-4 text-white">
-              Curso S.O.S Terapias Integrativas
+              Curso S.O.S Terapias Integrativas Complementares
             </span>
             <span className="block text-2xl md:text-3xl text-white font-medium">
               Transforme Sua Vida Hoje!
             </span>
           </h2>
           <p className="text-xl max-w-3xl mx-auto mb-8 text-white/95">
-            Acesso completo ao Curso S.O.S Terapias Integrativas:
+            Acesso completo ao Curso S.O.S Terapias Integrativas Complementares:
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
@@ -54,9 +54,8 @@ const CtaSection: React.FC = () => {
               >
                 {[
                   "25 Manobras Seitai Detalhadas",
-                  "Apostila Completa em PDF",
                   "Bônus: Mandalas Energéticas",
-                  "Certificado Profissional",
+                  "Certificado de Conclusão",
                   "Acesso Vitalício ao Conteúdo",
                   "Fundamentos do Seitai e Alinhamento Corporal",
                   "Técnicas Práticas para Aliviar Dores",

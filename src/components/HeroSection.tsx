@@ -17,7 +17,7 @@ const features = [
   {
     icon: '📜',
     title: 'Certificação',
-    desc: 'Certificado reconhecido para atuar com segurança.',
+    desc: 'Certificado de conclusão do curso.',
     aria: 'Scroll icon',
   },
   {
@@ -35,7 +35,7 @@ const features = [
   {
     icon: '💰',
     title: 'Alta Rentabilidade',
-    desc: 'Ganhos de R$100 a R$250 por sessão. Até R$12.000/mês.',
+    desc: 'Ganhos de R$100 a R$250 por sessão.',
     aria: 'Money bag icon',
   },
   {
@@ -100,7 +100,7 @@ const HeroSection: React.FC = () => {
             <span className="block">(Incluindo a Sua).</span>
           </h1>
           <p className="text-[#7a7a7a] text-base sm:text-lg max-w-md mb-8 leading-relaxed">
-            Descubra como sua vocação para cuidar pode se tornar uma profissão gratificante e lucrativa com o Curso S.O.S Terapias Integrativas.
+            Descubra como sua vocação para cuidar pode se tornar uma profissão gratificante e lucrativa com o Curso S.O.S Terapias Integrativas Complementares.
           </p>
           <a
             rel="noopener"

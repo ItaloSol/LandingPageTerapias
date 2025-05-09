@@ -7,12 +7,12 @@ const Footer: React.FC = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white">Curso S.O.S Terapias</h3>
+            <h3 className="text-xl font-bold mb-4 text-white">Curso S.O.S Terapias Complementares</h3>
             <p className="mb-4 text-lg">
               Transformando sua vocação para cuidar em uma carreira profissional de sucesso.
             </p>
             <p className="text-base">
-              &copy; 2025 Curso S.O.S Terapias Integrativas. Todos os direitos reservados.
+              &copy; 2025 Curso S.O.S Terapias Integrativas Complementares. Todos os direitos reservados.
             </p>
           </div>
           

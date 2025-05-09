@@ -76,7 +76,7 @@ const AboutCourseSection: React.FC = () => {
             Seu Sonho de Cuidar, Agora uma Realidade Profissional
           </h2>
           <p className="text-lg text-gray-800 max-w-3xl mx-auto">
-            O Curso S.O.S Terapias Integrativas é o seu guia prático para transformar a paixão por ajudar em uma carreira de impacto. Aprenda a técnica Seitai e outras práticas complementares para aliviar dores e promover bem-estar.
+            O Curso S.O.S Terapias Integrativas Complementares é o seu guia prático para transformar a paixão por ajudar em uma carreira de impacto. Aprenda a técnica Seitai e outras práticas complementares para aliviar dores e promover bem-estar.
           </p>
         </div>
         
