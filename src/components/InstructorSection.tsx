@@ -88,7 +88,7 @@ const InstructorSection: React.FC = () => {
               Aprenda com Quem Entende
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Com mais de 35 anos de experiência, o <strong>Instituto Jorge Avellar</strong> oferece um curso profissional completo para quem deseja aprender essa técnica exclusiva e transformar sua carreira!
+              Com mais de 35 anos de experiência, o <strong>Instituto Jorge Avellar</strong> oferece um treinamento focado para você dominar esta técnica exclusiva e revolucionar sua carreira profissional!
             </p>
             <div ref={statsRef} className="grid gap-4 mb-8">
               <div className="text-center p-4 bg-sos-green-light rounded-lg">
