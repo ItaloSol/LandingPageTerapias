@@ -88,16 +88,12 @@ const InstructorSection: React.FC = () => {
               Aprenda com Quem Entende
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Com mais de 35 anos de experiência, o Instituto Jorge Avellar oferece um curso profissional completo para quem deseja aprender essa técnica exclusiva e transformar sua carreira!
+              Com mais de 35 anos de experiência, o <strong>Instituto Jorge Avellar</strong> oferece um curso profissional completo para quem deseja aprender essa técnica exclusiva e transformar sua carreira!
             </p>
-            <div ref={statsRef} className="grid grid-cols-2 gap-4 mb-8">
+            <div ref={statsRef} className="grid gap-4 mb-8">
               <div className="text-center p-4 bg-sos-green-light rounded-lg">
                 <span className="text-3xl font-bold text-sos-green">{count1}+</span>
                 <p className="text-sm text-gray-700">Anos de Experiência</p>
-              </div>
-              <div className="text-center p-4 bg-sos-green-light rounded-lg">
-                <span className="text-3xl font-bold text-sos-green">{count2}+</span>
-                <p className="text-sm text-gray-700">Alunos Formados</p>
               </div>
             </div>
           </div>
@@ -115,8 +111,8 @@ const InstructorSection: React.FC = () => {
                 },
                 {
                   icon: <GraduationCap size={24} />,
-                  title: "Certificação Completa",
-                  desc: "Certificação profissional para atuar legalmente."
+                  title: "Certificado",
+                  desc: "Certificado de conclusão do curso."
                 },
                 {
                   icon: <TrendingUp size={24} />,

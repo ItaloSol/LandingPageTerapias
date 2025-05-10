@@ -11,19 +11,20 @@ const features = [
   {
     icon: '🎯',
     title: '25 Técnicas Seitai',
-    desc: 'Manobras exclusivas para coluna, articulações e músculos.',
+    desc: 'Manobras para Coluna vertebral, articulações e musculaturas.',
+
     aria: 'Target icon',
   },
   {
     icon: '📜',
-    title: 'Certificação',
+    title: 'Certificado',
     desc: 'Certificado de conclusão do curso.',
     aria: 'Scroll icon',
   },
   {
     icon: '🤝',
     title: 'Suporte Total',
-    desc: 'Acesso vitalício ao conteúdo e material didático.',
+    desc: 'Acesso vitalício ao conteúdo e materiais didáticos.',
     aria: 'Handshake icon',
   },
   {
@@ -81,7 +82,7 @@ const HeroSection: React.FC = () => {
           zIndex: 0,
         }}
       />
-      <div className="absolute inset-0 bg-[#f4f2ec] bg-opacity-80 pointer-events-none z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-sos-green to-sos-green/80 pointer-events-none z-10"></div>
       <div className="max-w-7xl w-full flex flex-col lg:flex-row gap-10 lg:gap-20 relative z-20">
         {/* Left Side */}
         <div className="lg:w-1/2 flex flex-col lg:items-start justify-center items-center text-center lg:text-left">
@@ -96,11 +97,11 @@ const HeroSection: React.FC = () => {
           </div>
           <h1 className="text-[#1a1a1a] font-extrabold text-3xl sm:text-4xl xl:text-5xl leading-tight mb-6 max-w-xl">
             <span className="block mb-2">Sente o Chamado para Ajudar?</span>
-            <span className="block text-sos-green">Transforme Vidas</span>
+            <span className="block text-sos-green-light">Transforme Vidas</span>
             <span className="block">(Incluindo a Sua).</span>
           </h1>
-          <p className="text-[#7a7a7a] text-base sm:text-lg max-w-md mb-8 leading-relaxed">
-            Descubra como sua vocação para cuidar pode se tornar uma profissão gratificante e lucrativa com o Curso S.O.S Terapias Integrativas Complementares.
+          <p className="text-white text-base sm:text-lg max-w-md mb-8 leading-relaxed">
+            Descubra como sua vocação para cuidar pode se tornar uma profissão gratificante e lucrativa com o <strong>Curso S.O.S Terapias Integrativas Complementares.</strong>
           </p>
           <a
             rel="noopener"
@@ -114,10 +115,10 @@ const HeroSection: React.FC = () => {
             {features.map((feature, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-xl p-6 flex flex-col text-center shadow-sm max-w-xs w-full"
+                className="bg-white/10 backdrop-blur rounded-lg p-6 flex flex-col text-center shadow-sm max-w-xs w-full"
               >
                 <div className="text-4xl mb-3" aria-label={feature.aria}>{feature.icon}</div>
-                <p className="text-xs text-[#4a4a4a] font-semibold leading-tight">
+                <p className="text-xs text-white font-semibold leading-tight">
                   {feature.title}
                   <br />
                   {feature.desc}

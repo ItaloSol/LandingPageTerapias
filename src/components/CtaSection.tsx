@@ -59,11 +59,11 @@ const CtaSection: React.FC = () => {
                   "Acesso Vitalício ao Conteúdo",
                   "Fundamentos do Seitai e Alinhamento Corporal",
                   "Técnicas Práticas para Aliviar Dores",
-                  "Alívio Imediato de Dores nas Costas",
+                  "Alívio Dores Imediato em Todo o Corpo",
                   "Correção de Desalinhamentos Posturais",
                   "Aumento da Flexibilidade Articular",
                   "Redução do Estresse e Tensões",
-                  "Melhora na Qualidade do Sono",
+                  "Melhora na Qualidade de Vida",
                   "Garantia de 7 Dias"
                 ].map((item, index) => (
                   <li 

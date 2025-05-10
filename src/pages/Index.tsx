@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 const Index = () => {
   useEffect(() => {
     // Update page title
-    document.title = "Realize Seu Chamado: Torne-se Terapeuta Integrativo | Curso S.O.S";
+    document.title = "Realize Seu Chamado: Torne-se Terapeuta Integrativo | Curso S.O.S Terapias Integrativas Complementares";
     
     // Add a meta description
     const metaDescription = document.querySelector('meta[name="description"]');

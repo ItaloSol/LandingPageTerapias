@@ -76,11 +76,11 @@ const SolutionSection: React.FC = () => {
               O Caminho Claro para Ser um Terapeuta de Impacto
             </h2>
             <p className="text-lg text-gray-800 mb-6">
-              Com o Curso S.O.S, você adquire as ferramentas e a confiança para fazer a diferença. Nosso método é direto ao ponto, focado na prática e nos resultados que você e seus futuros clientes buscam.
+              Com o Curso S.O.S Terapias Integrativas Complementares, você adquire as ferramentas e a confiança para fazer a diferença. Nosso método é direto ao ponto, focado na prática e nos resultados que você e seus futuros clientes buscam.
             </p>
             <ul ref={listRef} className="space-y-4 bg-[#f4f2ec] rounded-xl p-6 shadow-md border border-sos-green/20">
               {[
-                "Alivie dores e transforme vidas com técnicas comprovadas.",
+                "Alivie dores e transforme vidas com técnicas sentai.",
                 "Construa uma renda extra ou principal fazendo o que ama.",
                 "Junte-se a uma comunidade de terapeutas com propósito."
               ].map((item, index) => (

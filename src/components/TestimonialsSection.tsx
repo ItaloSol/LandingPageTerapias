@@ -33,7 +33,7 @@ const TestimonialsSection: React.FC = () => {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-sos-dark">
-            Quem Fez o Curso S.O.S Recomenda
+            Quem Fez o Curso S.O.S Terapias Integrativas Complementares Recomenda
           </h2>
         </div>
         {/* Video section removed */}
@@ -44,7 +44,7 @@ const TestimonialsSection: React.FC = () => {
             role="Nova Terapeuta"
           />
           <TestimonialCard 
-            quote="O Seitai é incrível! O curso é muito didático. Consegui uma nova fonte de renda fazendo algo que realmente me realiza."
+            quote="O Seitai é incrível! O curso é muito prático e didático. Aprendi técnicas que já aplico no dia a dia e estou muito satisfeito com os resultados."
             author="Pedro L."
             role="Terapeuta Satisfeito"
           />
