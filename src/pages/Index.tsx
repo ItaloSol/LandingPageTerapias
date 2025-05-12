@@ -8,6 +8,7 @@ import InstructorSection from '../components/InstructorSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import CtaSection from '../components/CtaSection';
 import FinalCtaSection from '../components/FinalCtaSection';
+import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -49,6 +50,7 @@ const Index = () => {
       <TestimonialsSection />
       <CtaSection />
       <FinalCtaSection />
+      <ContactSection />
       <Footer />
     </div>
   );
