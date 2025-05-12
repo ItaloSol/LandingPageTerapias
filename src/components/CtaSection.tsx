@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CtaSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -97,15 +98,13 @@ const CtaSection: React.FC = () => {
               <div className="mb-6">
                 <span className="text-xl">Ou 12x de R$ 9,74</span>
               </div>
-              <a
-                rel="noopener"
-                href="https://pay.kiwify.com.br/e4evoCe" 
-                target='_blank'
+              <Link
+                to="/checkout"
                 className="cta-button focus:ring-4 focus:ring-white/50 focus:outline-none"
                 aria-label="Clique para garantir sua vaga no curso"
               >
                 QUERO APRENDER AGORA!
-              </a>
+              </Link>
               <p className="mt-4 text-lg font-medium italic border-t border-white/20 pt-4">
                 Vagas limitadas nesta condição especial!
               </p>

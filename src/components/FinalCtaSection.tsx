@@ -1,6 +1,8 @@
 import React from 'react';
 import { ArrowRight, Clock, Shield, Award } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import foto from '../img/foto.webp';
+
 const FinalCtaSection: React.FC = () => {
   return (
     <section className="section bg-gradient-to-br from-sos-green to-sos-green/90 text-white relative overflow-hidden">
@@ -44,15 +46,13 @@ const FinalCtaSection: React.FC = () => {
             </p>
             <p className="text-xl mb-6">ou 12x de R$ 9,74</p>
             
-            <a 
-             rel="noopener"
-             href="https://pay.kiwify.com.br/e4evoCe" 
-             target='_blank'
+            <Link 
+              to="/checkout"
               className="group inline-flex items-center justify-center bg-sos-orange hover:bg-opacity-90 text-white font-bold py-4 px-8 rounded-full text-xl transition-all duration-300 transform hover:scale-105"
             >
               Começar Agora
               <ArrowRight className="ml-2 w-6 h-6 transition-transform duration-300 group-hover:translate-x-2" />
-            </a>
+            </Link>
             
             <p className="mt-4 text-sm text-white/80">
               Oferta por tempo limitado. Não perca esta oportunidade!
