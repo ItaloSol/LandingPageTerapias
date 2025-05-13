@@ -98,13 +98,15 @@ const CtaSection: React.FC = () => {
               <div className="mb-6">
                 <span className="text-xl">Ou 12x de R$ 9,74</span>
               </div>
-              <Link
-                to="/checkout"
+              <a
+               rel="noopener"
+               href="https://pay.kiwify.com.br/e4evoCe"
+               target="_blank"
                 className="cta-button focus:ring-4 focus:ring-white/50 focus:outline-none"
                 aria-label="Clique para garantir sua vaga no curso"
               >
                 QUERO APRENDER AGORA!
-              </Link>
+              </a>
               <p className="mt-4 text-lg font-medium italic border-t border-white/20 pt-4">
                 Vagas limitadas nesta condição especial!
               </p>
