@@ -12,7 +12,7 @@ const FinalCtaSection: React.FC = () => {
       />
       <div className="container-custom relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-yellow-300">
             Não Perca Mais Tempo!
           </h2>
           <p className="text-xl mb-8 text-white/90">
@@ -21,34 +21,34 @@ const FinalCtaSection: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white/10 backdrop-blur rounded-lg p-6 flex flex-col items-center">
-              <Clock className="w-12 h-12 mb-4 text-white" />
+              <Clock className="w-12 h-12 mb-4 text-yellow-300" />
               <h3 className="text-lg font-semibold mb-2">Acesso Imediato</h3>
               <p className="text-sm text-white/80">Comece seus estudos hoje mesmo após a confirmação do pagamento</p>
             </div>
             <div className="bg-white/10 backdrop-blur rounded-lg p-6 flex flex-col items-center">
-              <Shield className="w-12 h-12 mb-4 text-white" />
+              <Shield className="w-12 h-12 mb-4 text-yellow-300" />
               <h3 className="text-lg font-semibold mb-2">Garantia de 7 Dias</h3>
               <p className="text-sm text-white/80">Satisfação garantida ou seu dinheiro de volta</p>
             </div>
             <div className="bg-white/10 backdrop-blur rounded-lg p-6 flex flex-col items-center">
-              <Award className="w-12 h-12 mb-4 text-white" />
+              <Award className="w-12 h-12 mb-4 text-yellow-300" />
               <h3 className="text-lg font-semibold mb-2">Certificado Incluso</h3>
               <p className="text-sm text-white/80">Certificado de conclusão do curso</p>
             </div>
           </div>
           
           <div className="bg-white/10 backdrop-blur rounded-xl p-8 max-w-2xl mx-auto">
-            <p className="text-2xl font-bold mb-2">
+            <p className="text-2xl font-bold mb-2 text-yellow-300">
               <span className="line-through opacity-75">De R$ 297,00</span>
             </p>
-            <p className="text-4xl font-bold mb-4">
+            <p className="text-4xl font-bold mb-4 text-yellow-300">
               Por apenas R$ 97,00
             </p>
             <p className="text-xl mb-6">ou 12x de R$ 9,74</p>
             
             <Link 
               to="/checkout"
-              className="group inline-flex items-center justify-center bg-sos-orange hover:bg-opacity-90 text-white font-bold py-4 px-8 rounded-full text-xl transition-all duration-300 transform hover:scale-105"
+              className="group inline-flex items-center justify-center bg-yellow-300 hover:bg-yellow-400 text-sos-green font-bold py-4 px-8 rounded-full text-xl transition-all duration-300 transform hover:scale-105"
             >
               Começar Agora
               <ArrowRight className="ml-2 w-6 h-6 transition-transform duration-300 group-hover:translate-x-2" />

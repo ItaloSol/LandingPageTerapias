@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Check } from 'lucide-react';
+import { Check, ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Import carousel images
 import Save from '../img/Save.webp';
@@ -49,17 +49,17 @@ const SolutionSection: React.FC = () => {
               />
               <button
                 onClick={prevImage}
-                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 rounded-full px-2 py-1 shadow hover:bg-opacity-100"
+                className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors duration-300"
                 aria-label="Imagem anterior"
               >
-                &#8592;
+                <ChevronLeft className="w-6 h-6" />
               </button>
               <button
                 onClick={nextImage}
-                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white bg-opacity-70 rounded-full px-2 py-1 shadow hover:bg-opacity-100"
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors duration-300"
                 aria-label="Próxima imagem"
               >
-                &#8594;
+                <ChevronRight className="w-6 h-6" />
               </button>
               <div className="flex justify-center space-x-2 mt-4 absolute left-1/2 -translate-x-1/2 bottom-2">
                 {images.map((_, idx) => (

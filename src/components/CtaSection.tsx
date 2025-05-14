@@ -34,30 +34,29 @@ const CtaSection: React.FC = () => {
             id="cta-heading"
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            <span className="block mb-4 text-white">
+            <span className="block mb-4 text-yellow-300">
               Curso S.O.S Terapias Integrativas Complementares
             </span>
             <span className="block text-2xl md:text-3xl text-white font-medium">
               Transforme Sua Vida Hoje!
             </span>
           </h2>
-          <p className="text-xl max-w-3xl mx-auto mb-8 text-white/95">
-            Acesso completo ao Curso S.O.S Terapias Integrativas Complementares:
-          </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
             <div className="bg-white/15 backdrop-blur rounded-lg p-6 shadow-lg">
-              <h3 className="text-xl font-bold mb-4 text-white">O que está incluso:</h3>
+              <h3 className="text-xl font-bold mb-6 text-yellow-300">O que está incluso:</h3>
               <ul 
                 ref={listRef} 
                 className="space-y-4 text-left"
                 aria-label="Benefícios inclusos no curso"
               >
                 {[
+                  "Bônus 1: Aula 'Iniciando do Zero' — Domine o Básico com Segurança",
+                  "Bônus 2: Curso 100% Online",
+                  "Bônus 3: Certificação Completa do Treinamento",
+                  "Bônus 4: Aplicação Imediata",
+                  "Bônus 5: Acesso Vitalício",
                   "25 Manobras Seitai Detalhadas",
-                  "Bônus: Mandalas Energéticas",
-                  "Certificado de Conclusão",
-                  "Acesso Vitalício ao Conteúdo",
                   "Fundamentos do Seitai e Alinhamento Corporal",
                   "Técnicas Práticas para Aliviar Dores",
                   "Alívio Dores Imediato em Todo o Corpo",
@@ -76,7 +75,7 @@ const CtaSection: React.FC = () => {
                       animationDelay: `${index * 0.2}s`,
                     }}
                   >
-                    <div className="bg-white rounded-full p-1 mr-3 text-sos-green flex-shrink-0" aria-hidden="true">
+                    <div className="bg-yellow-300 rounded-full p-1 mr-3 text-sos-green">
                       <Check size={16} />
                     </div>
                     <span className="text-base font-medium">{item}</span>
@@ -86,34 +85,37 @@ const CtaSection: React.FC = () => {
             </div>
             
             <div className="bg-white/15 backdrop-blur rounded-lg p-8 flex flex-col justify-center shadow-lg relative overflow-hidden">
-              <div className="absolute -right-16 top-6 rotate-45 bg-sos-orange px-16 py-1 text-sm font-bold shadow-lg">
+              <div className="absolute -right-16 top-6 rotate-45 bg-yellow-300 px-16 py-1 text-sos-green font-bold shadow-lg">
                 PROMOÇÃO
               </div>
-              <div className="mb-4" aria-label="Preço original">
-                <span className="text-lg line-through opacity-75">De R$ 297,00</span>
+              <div className="text-center">
+                <div className="mb-4">
+                  <span className="text-lg line-through opacity-75">De R$ 297,00</span>
+                </div>
+                <div className="mb-2">
+                  <div className="text-4xl font-bold text-yellow-300">Por Apenas</div>
+                  <div className="text-6xl font-bold text-yellow-300 mt-2">R$ 97,00</div>
+                </div>
+                <div className="mb-8">
+                  <span className="text-xl">Ou 12x de R$ 9,74</span>
+                </div>
+                <a
+                  rel="noopener"
+                  href="https://pay.kiwify.com.br/e4evoCe"
+                  target="_blank"
+                  className="cta-button bg-yellow-300 hover:bg-yellow-400 text-sos-green focus:ring-4 focus:ring-white/50 focus:outline-none block w-full"
+                  aria-label="Clique para garantir sua vaga no curso"
+                >
+                  QUERO GARANTIR MINHA VAGA
+                </a>
+                <p className="mt-6 text-lg font-medium italic border-t border-white/20 pt-4">
+                  Vagas limitadas nesta condição especial!
+                </p>
               </div>
-              <div className="mb-2">
-                <span className="text-4xl font-bold">Por Apenas R$ 97,00</span>
-              </div>
-              <div className="mb-6">
-                <span className="text-xl">Ou 12x de R$ 9,74</span>
-              </div>
-              <a
-               rel="noopener"
-               href="https://pay.kiwify.com.br/e4evoCe"
-               target="_blank"
-                className="cta-button focus:ring-4 focus:ring-white/50 focus:outline-none"
-                aria-label="Clique para garantir sua vaga no curso"
-              >
-                QUERO APRENDER AGORA!
-              </a>
-              <p className="mt-4 text-lg font-medium italic border-t border-white/20 pt-4">
-                Vagas limitadas nesta condição especial!
-              </p>
             </div>
           </div>
           
-          <p className="text-xl font-medium italic max-w-2xl mx-auto text-white">
+          <p className="text-xl font-medium italic max-w-2xl mx-auto text-yellow-300">
             Transforme sua vocação em uma carreira de impacto!
           </p>
         </div>
