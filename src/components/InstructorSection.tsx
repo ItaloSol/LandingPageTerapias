@@ -98,52 +98,7 @@ const InstructorSection: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-sos-green-light rounded-xl p-8">
-            <h3 className="text-2xl font-bold mb-6 text-sos-dark">
-              Bônus Exclusivos
-            </h3>
-            <div ref={listRef} className="space-y-6">
-              {[
-                {
-                  icon: <Building size={24} />,
-                  title: "Empreendedorismo na Prática",
-                  desc: "Como abrir sua própria clínica ou atuar em spas e consultórios."
-                },
-                {
-                  icon: <GraduationCap size={24} />,
-                  title: "Certificado",
-                  desc: "Certificado de conclusão do curso."
-                },
-                {
-                  icon: <TrendingUp size={24} />,
-                  title: "Marketing para Terapeutas",
-                  desc: "Estratégias para atrair mais clientes e aumentar sua renda."
-                }
-              ].map((item, index) => (
-                <div 
-                  key={index}
-                  className={`flex items-start gap-4 opacity-0 translate-x-[-20px] ${
-                    isVisible ? 'animate-[slide-in_0.5s_ease-out_forwards]' : ''
-                  }`}
-                  style={{
-                    animationDelay: `${index * 0.2}s`
-                  }}
-                >
-                  <div className="bg-sos-green rounded-full p-2 text-white mt-1">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg text-sos-dark mb-1">
-                      {item.title}
-                    </h4>
-                    <p className="text-gray-700">
-                      {item.desc}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
