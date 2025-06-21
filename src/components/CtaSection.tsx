@@ -90,14 +90,13 @@ const CtaSection: React.FC = () => {
               </div>
               <div className="text-center">
                 <div className="mb-4">
-                  <span className="text-lg line-through opacity-75">De R$ 297,00</span>
+                  <span className="text-lg opacity-75">Por apenas R$ 297,00 no PIX</span>
                 </div>
                 <div className="mb-2">
-                  <div className="text-4xl font-bold text-yellow-300">Por Apenas</div>
-                  <div className="text-6xl font-bold text-yellow-300 mt-2">R$ 97,00</div>
+                  <div className="text-6xl font-bold text-yellow-300 mt-2">R$ 24,75</div>
                 </div>
                 <div className="mb-8">
-                  <span className="text-xl">Ou 12x de R$ 9,74</span>
+                  <span className="text-xl">em 12x no cartão</span>
                 </div>
                 <a
                   rel="noopener"

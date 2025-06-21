@@ -39,12 +39,12 @@ const FinalCtaSection: React.FC = () => {
           
           <div className="bg-white/10 backdrop-blur rounded-xl p-8 max-w-2xl mx-auto">
             <p className="text-2xl font-bold mb-2 text-yellow-300">
-              <span className="line-through opacity-75">De R$ 297,00</span>
+              <span className=" opacity-75">Por apenas R$ 297,00 no PIX</span>
             </p>
             <p className="text-4xl font-bold mb-4 text-yellow-300">
-              Por apenas R$ 97,00
+            ou R$ 24,75
             </p>
-            <p className="text-xl mb-6">ou 12x de R$ 9,74</p>
+            <p className="text-xl mb-6">em 12x no cartão</p>
             
             <Link 
               to="/checkout"
