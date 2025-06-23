@@ -3,7 +3,7 @@ import { ChevronDown } from 'lucide-react';
 
 // Import images
 import Logo from '../img/logo.webp';
-import Jorge from '../img/jorge.webp';
+import Jorge from '../img/hero.png';
 import HeroBg from '../img/hero.webp';
 import HeroBgMobile from '../img/hero-m.webp';
 
@@ -128,15 +128,16 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
         {/* Right Side */}
-        <div className="lg:w-1/2 relative flex">
-          <img
-            src={Jorge}
-            alt="Bald man in black kimono with arms crossed standing in front of a large beige circle"
-            className="max-w-full h-auto"
-            width={600}
-            height={600}
-            style={{ marginTop: 150, marginBottom: -50 }}
-          />
+        <div className="lg:w-1/2 flex items-center justify-center">
+          <div className="relative rounded-xl overflow-hidden border-4 border-white shadow-2xl">
+            <img
+              src={Jorge}
+              alt="Bald man in black kimono with arms crossed standing in front of a large beige circle"
+              className="max-w-full h-auto"
+              width={600}
+              height={600}
+            />
+          </div>
         </div>
       </div>
       {/* Scroll Down Arrow */}

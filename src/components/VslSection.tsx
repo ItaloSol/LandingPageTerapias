@@ -3,7 +3,7 @@ import foto from '../img/foto.webp';
 
 const VslSection: React.FC = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-  const videoId = "wNxZoHfz0Zw";
+  const videoId = "CF9Nj5AJolg";
   const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
 
   const loadVideo = () => {
